@@ -14,8 +14,13 @@ Ghi chép được tổ chức theo cấu trúc của sách gốc, tập trung v
 
 ## Mục lục
 
+### [0. Farmer's Market Database](./0.%20Farmer%E2%80%99s%20Market%20Database/)
+- [README.md](./0.%20Farmer%E2%80%99s%20Market%20Database/README.md) - Giới thiệu dataset thực hành
+- [FarmersMarketDatabase.sql](./0.%20Farmer%E2%80%99s%20Market%20Database/FarmersMarketDatabase.sql) - Script tạo database
+- [farmers_market_ERD.png](./0.%20Farmer%E2%80%99s%20Market%20Database/farmers_market_ERD.png) - Sơ đồ quan hệ thực thể
+
 ### [1. Tổng quan và Mục đích sách](./1.%20T%E1%BB%95ng%20quan%20v%C3%A0%20M%E1%BB%A5c%20%C4%91%C3%ADch%20s%C3%A1ch/)
-- [README.md](./1.%20T%E1%BB%95ng%20quan%20v%C3%A0%20M%E1%BB%A5c%20%C4%91%C3%ADch%20s%C3%A1ch/README.md)
+- [1.1. Tổng Quan.md](./1.%20T%E1%BB%95ng%20quan%20v%C3%A0%20M%E1%BB%A5c%20%C4%91%C3%ADch%20s%C3%A1ch/1.1.%20T%E1%BB%95ng%20Quan.md)
 
 ### [2. Cơ sở dữ liệu và Công cụ](./2.%20C%C6%A1%20s%E1%BB%9F%20d%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20C%C3%B4ng%20c%E1%BB%A5/)
 - [2.1. Nguồn dữ liệu](./2.%20C%C6%A1%20s%E1%BB%9F%20d%E1%BB%AF%20li%E1%BB%87u%20v%C3%A0%20C%C3%B4ng%20c%E1%BB%A5/2.1.%20Ngu%E1%BB%93n%20d%E1%BB%AF%20li%E1%BB%87u.md)
@@ -62,6 +67,19 @@ Ghi chép được tổ chức theo cấu trúc của sách gốc, tập trung v
 - [4.4.3. DATEDIFF, TIMESTAMPDIFF](./4.%20C%C3%A1c%20kh%C3%A1i%20ni%E1%BB%87m%20SQL%20n%C3%A2ng%20cao/4.4.%20Date%20%26%20Time%20Functions/4.4.3.%20DATEDIFF%2C%20TIMESTAMPDIFF.md)
 - [4.4.4. CURDATE(), CURRENT_TIMESTAMP](./4.%20C%C3%A1c%20kh%C3%A1i%20ni%E1%BB%87m%20SQL%20n%C3%A2ng%20cao/4.4.%20Date%20%26%20Time%20Functions/4.4.4.%20CURDATE%28%29%2C%20CURRENT_TIMESTAMP.md)
 - [4.4.5. MIN, MAX](./4.%20C%C3%A1c%20kh%C3%A1i%20ni%E1%BB%87m%20SQL%20n%C3%A2ng%20cao/4.4.%20Date%20%26%20Time%20Functions/4.4.5.%20MIN%2C%20MAX.md)
+
+### [5. Xây dựng Dataset](./5.%20X%C3%A2y%20d%E1%BB%B1ng%20Dataset/)
+
+#### [5.1. Báo cáo ad-hoc & Dataset phân tích](./5.%20X%C3%A2y%20d%E1%BB%B1ng%20Dataset/5.1.%20B%C3%A1o%20c%C3%A1o%20ad-hoc%20%26%20Dataset%20ph%C3%A2n%20t%C3%ADch/)
+- [5.1.1. Granularity](./5.%20X%C3%A2y%20d%E1%BB%B1ng%20Dataset/5.1.%20B%C3%A1o%20c%C3%A1o%20ad-hoc%20%26%20Dataset%20ph%C3%A2n%20t%C3%ADch/5.1.1.%20Granularity.md)
+- [5.1.2. CTE (Common Table Expressions)](./5.%20X%C3%A2y%20d%E1%BB%B1ng%20Dataset/5.1.%20B%C3%A1o%20c%C3%A1o%20ad-hoc%20%26%20Dataset%20ph%C3%A2n%20t%C3%ADch/5.1.2.%20CTE%20%28Common%20Table%20Expressions%29.md)
+- [5.1.3. Views](./5.%20X%C3%A2y%20d%E1%BB%B1ng%20Dataset/5.1.%20B%C3%A1o%20c%C3%A1o%20ad-hoc%20%26%20Dataset%20ph%C3%A2n%20t%C3%ADch/5.1.3.%20Views.md)
+
+#### [5.2. EDA (Exploratory Data Analysis)](./5.%20X%C3%A2y%20d%E1%BB%B1ng%20Dataset/5.2.%20EDA%20%28Exploratory%20Data%20Analysis%29/)
+- [5.2.1. Kiểm tra kích thước, phạm vi](./5.%20X%C3%A2y%20d%E1%BB%B1ng%20Dataset/5.2.%20EDA%20%28Exploratory%20Data%20Analysis%29/5.2.1.%20Ki%E1%BB%83m%20tra%20k%C3%ADch%20th%C6%B0%E1%BB%9Bc%2C%20ph%E1%BA%A1m%20vi.md)
+- [5.2.2. Xác định mức độ chi tiết (granularity)](./5.%20X%C3%A2y%20d%E1%BB%B1ng%20Dataset/5.2.%20EDA%20%28Exploratory%20Data%20Analysis%29/5.2.2.%20X%C3%A1c%20%C4%91%E1%BB%8Bnh%20m%E1%BB%A9c%20%C4%91%E1%BB%99%20chi%20ti%E1%BA%BFt%20%28granularity%29.md)
+- [5.2.3. MQH giữa các bảng](./5.%20X%C3%A2y%20d%E1%BB%B1ng%20Dataset/5.2.%20EDA%20%28Exploratory%20Data%20Analysis%29/5.2.3.%20MQH%20gi%E1%BB%AFa%20c%C3%A1c%20b%E1%BA%A3ng.md)
+- [5.2.4. Kiểm tra phân phối](./5.%20X%C3%A2y%20d%E1%BB%B1ng%20Dataset/5.2.%20EDA%20%28Exploratory%20Data%20Analysis%29/5.2.4.%20Ki%E1%BB%83m%20tra%20ph%C3%A2n%20ph%E1%BB%91i.md)
 
 ## Đặc điểm của ghi chép
 
