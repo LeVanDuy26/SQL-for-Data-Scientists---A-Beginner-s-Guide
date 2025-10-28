@@ -81,6 +81,10 @@ Ghi chép được tổ chức theo cấu trúc của sách gốc, tập trung v
 - [5.2.3. MQH giữa các bảng](./5.%20X%C3%A2y%20d%E1%BB%B1ng%20Dataset/5.2.%20EDA%20%28Exploratory%20Data%20Analysis%29/5.2.3.%20MQH%20gi%E1%BB%AFa%20c%C3%A1c%20b%E1%BA%A3ng.md)
 - [5.2.4. Kiểm tra phân phối](./5.%20X%C3%A2y%20d%E1%BB%B1ng%20Dataset/5.2.%20EDA%20%28Exploratory%20Data%20Analysis%29/5.2.4.%20Ki%E1%BB%83m%20tra%20ph%C3%A2n%20ph%E1%BB%91i.md)
 
+### [6. Cheatsheet](./6.%20Cheatsheet/)
+- [SQL_Cheatsheet.pdf](./6.%20Cheatsheet/SQL_Cheatsheet.pdf)
+- [SQL.jpg](./6.%20Cheatsheet/SQL.jpg)
+
 ## Đặc điểm của ghi chép
 
 - Có ví dụ cụ thể và giải thích chi tiết
